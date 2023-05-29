@@ -1,0 +1,17 @@
+import random
+
+# RarityName, Percentage, Fraction (1 in x)
+rarityTable = [
+    ["Common", 50, (50/100)]
+]
+
+
+
+for rarity in rarityTable:
+    stats = ""
+
+    for value in rarity:
+        stats += str(value) + " "
+
+    print(stats)
+
